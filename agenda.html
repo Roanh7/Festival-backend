@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Agenda 2025</title>
+    <link rel="stylesheet" href="agenda.css">
+</head>
+
+<body>
+    <header>
+        <h1>Festival Agenda 2025</h1>
+    </header>
+
+    <!-- Logo -->
+    <div class="logo-container">
+        <img src="images/logo.png" alt="Festival Logo">
+    </div>
+
+    <!-- Navigatiebalk  -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="agenda.html">Home</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="extra-info.html">Extra Info</a></li>
+            <li><a href="register.html">Registreren</a></li>
+            <li><a href="login.html">Inloggen</a></li>
+        </ul>
+    </nav>
+
+    <div id="countdown-container">
+        <h2>Volgend festival:</h2>
+        <p id="festival-name"></p>
+        <div id="countdown">
+            <span id="days">00</span>d :
+            <span id="hours">00</span>u :
+            <span id="minutes">00</span>m :
+            <span id="seconds">00</span>s
+        </div>
+    </div>
+
+    <main>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>nr.</th>
+                        <th>Datum</th>
+                        <th>Naam</th>
+                        <th>Locatie</th>
+                        <th>Prijs</th>
+                        <th>Hersteltijd</th>
+                        <th>Chip Scale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="highlight-green">
+                        <td>1.</td>
+                        <td>21 december 2024</td>
+                        <td><a href="#" class="festival-link" data-name="Wavy">Wavy</a></td>
+                        <td>Thuisaven, Amsterdam</td>
+                        <td>€ 26,04</td>
+                        <td>119 dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>2.</td>
+                        <td>18-20 april 2025</td>
+                        <td><a href="#" class="festival-link" data-name="DGTL">DGTL</a></td>
+                        <td>NDSM, Amsterdam</td>
+                        <td>€ 90,00</td>
+                        <td>6 dagen</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>3.</td>
+                        <td>26 april 2025</td> 
+                        <td><a href="#" class="festival-link" data-name="Free your mind Kingsday">Free your mind Kingsday</a></td>
+                        <td>Breda International Airport, Bosschenhoofd</td>
+                        <td>€ 33,33</td>
+                        <td>9 dagen</td>
+                        <td>2</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>4.</td>
+                        <td>26 april 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Loveland Kingsday">Loveland Kingsday</a></td>
+                        <td>Meerpark, Amsterdam</td>
+                        <td>€ 51,00</td>
+                        <td>9 dagen</td>
+                        <td>4</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>5.</td>
+                        <td>5 mei 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Verbond">Verbond</a></td>
+                        <td>Olympisch stadion, Amsterdam</td>
+                        <td>€ 60,00</td>
+                        <td>12 dag</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>6.</td>
+                        <td>17-18 mei 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Awakenings Upclose">Awakenings Upclose</a></td>
+                        <td>Spaarnwoude, Amsterdam</td>
+                        <td>€ 79,95</td>
+                        <td>13 dagen</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>7.</td>
+                        <td>31 mei 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Soenda">Soenda</a></td>
+                        <td>Ruigenhoekse polder, Utrecht</td>
+                        <td>€ 69,95</td>
+                        <td>7 dagen</td>
+                        <td>4</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>8.</td>
+                        <td>7 juni 2025</td>
+                        <td><a href="#" class="festival-link" data-name="909">909</a></td>
+                        <td>Amsterdamse bos, Amsterdam</td>
+                        <td>€ 52,50</td>
+                        <td>1 dagen</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>9.</td>
+                        <td>8 juni 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Open Air">Open Air</a></td>
+                        <td>Gaasperpark, Amsterdam</td>
+                        <td>€ 63,00</td>
+                        <td>6 dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>10.</td>
+                        <td>7-8 juni 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Free Your Mind">Free Your Mind</a></td>
+                        <td>Stadsblokken, Arnhem</td>
+                        <td>€ 54,75</td>
+                        <td>6 dagen</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>11.</td>
+                        <td>14 juni 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Mystic Garden Festival">Mystic Garden Festival</a></td>
+                        <td>Sloterpark, Amsterdam</td>
+                        <td>€ 85,00</td>
+                        <td>27 dagen</td>
+                        <td>4</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>12.</td>
+                        <td>12 juli 2025</td>
+                        <td>Boothstock Festival</td>
+                        <td>Kralingse Bos, Rotterdam</td>
+                        <td>€ 70,00</td>
+                        <td>1 dagen</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>13.</td>
+                        <td>11-13 juli 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Awakenings Festival">Awakenings Festival</a></td>
+                        <td>Beekse Bergen, Hilvarenbeek</td>
+                        <td>€ 109,00</td>
+                        <td>5 dagen</td>
+                        <td>4</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>14.</td>
+                        <td>18-27 juli 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Tomorrowland">Tomorrowland</a></td>
+                        <td>Boom, België</td>
+                        <td>€ 105,00</td>
+                        <td>4 dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>15.</td>
+                        <td>22-24 juli 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Mysteryland">Mysteryland</a></td>
+                        <td>Floriadeterrein, Haarlemmermeer</td>
+                        <td>€ 119,95</td>
+                        <td>2 dagen</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>16.</td>
+                        <td>26 juli 2025</td>
+                        <td><a href="#" class="festival-link" data-name="No Art">No Art</a></td>
+                        <td>Flevopark, Amsterdam</td>
+                        <td>€ 70,00</td>
+                        <td>15 dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>17.</td>
+                        <td>9 augustus 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Loveland">Loveland</a></td>
+                        <td>Sloterpark, Amsterdam</td>
+                        <td>€ 82,50</td>
+                        <td>7 dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>18.</td>
+                        <td>17 augustus 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Latin Village">Latin Village</a></td>
+                        <td>Spaarnwoude, Amsterdam</td>
+                        <td>€ 50,00</td>
+                        <td>x dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>19.</td>
+                        <td>To be announced</td>
+                        <td><a href="#" class="festival-link" data-name="Strafwerk">Strafwerk</a></td>
+                        <td>Havenpark, Amsterdam</td>
+                        <td>€ ?</td>
+                        <td>27 dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>20.</td>
+                        <td>13-14 september 2025</td>
+                        <td><a href="#" class="festival-link" data-name="Parels van de stad">Parels van de stad</a></td>
+                        <td>Riekerhaven, Amsterdam</td>
+                        <td>€ 36,00</td>
+                        <td>5 dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-green">
+                        <td>21.</td>
+                        <td>To be announced</td>
+                        <td><a href="#" class="festival-link" data-name="PIV">PIV</a></td>
+                        <td>Amsterdam</td>
+                        <td>€ ?</td>
+                        <td>? dagen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="highlight-yellow">
+                        <td>22.</td>
+                        <td>19-20 september</td>
+                        <td><a href="#" class="festival-link" data-name="Into the woods">Into the woods</a></td>               
+                        <td>Openluchttheater, Amersfoort</td>
+                        <td>€ 53,00</td>
+                        <td>END OF SEASON</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="field-container">
+            <div class="field-title">S-TEAM Opstelling</div>
+            <div class="field">
+                <div class="player-container goalkeeper">
+                    <div class="player">1</div>
+                    <div class="player-name">Roan</div>
+                </div>
+            
+                <div class="player-container defender-left">
+                    <div class="player">3</div>
+                    <div class="player-name">Muc</div>
+                </div>
+            
+                <div class="player-container defender-right">
+                    <div class="player">5</div>
+                    <div class="player-name">Rick</div>
+                </div>
+                
+                <div class="player-container midfielder">
+                    <div class="player">10</div>
+                    <div class="player-name">Chip</div>
+                </div>
+            
+                <div class="player-container striker">
+                    <div class="player">9</div>
+                    <div class="player-name">Jef</div>
+                </div>
+            </div>
+             <!-- Player Stats Popup -->
+      <div id="player-stats-popup" class="popup hidden">
+        <div class="popup-overlay"></div>
+        <div class="popup-content">
+          <div class="player-stats">
+            <div class="rating-section">
+              <div class="rating-box">
+                <p class="rating-label">Rating</p>
+              </div>
+            </div>
+            <div class="info-section">
+              <p><strong>Naam:</strong> <span id="player-name">Roan</span></p>
+              <p><strong>Leeftijd:</strong> <span id="player-age">23</span></p>
+            </div>
+          </div>
+          <div class="skills-section">
+            <h3>Skills:</h3>
+            <ul id="player-skills">
+              
+            </ul>
+          </div>
+          <button id="close-popup" class="close-popup-btn">Terug</button>
+        </div>
+      </div>
+    </div>
+        </div>
+
+        <div class="bank-container">
+            <h3 class="bank-title">Bank</h3>
+            <ul class="bank-list">
+                <li class="bank-player">Avend</li>
+                <li class="bank-player">Awdar</li>
+                <li class="bank-player">Faro</li>
+                <li class="bank-player">Hamada</li>
+                <li class="bank-player">Joost</li>
+                <li class="bank-player">Kosjber</li>
+                <li class="bank-player">Menno</li>
+                <li class="bank-player">MD</li>
+                <li class="bank-player">Shawkat</li>
+                <li class="bank-player">Tom</li>
+                <li class="bank-player">Trim</li>
+                <li class="bank-player">Zana</li>
+            </ul>
+        </div>
+
+        <div class="download-link-container">
+            <a href="agenda2025.pdf" class="download-link" download>Download hier PDF</a>
+        </div>
+
+        <form id="registerForm">
+            <input type="text" id="regUsername" placeholder="Gebruikersnaam" />
+            <input type="password" id="regPassword" placeholder="Wachtwoord" />
+            <button type="submit">Registreer</button>
+          </form>
+          
+          <div id="registerResult"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Festival Agenda - Gecreëerd door Roan Hassan, S-team vertegenwoordiger</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

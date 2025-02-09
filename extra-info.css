@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+.uitleg {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.uitleg-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.uitleg-text {
+    font-size: 1rem;
+    color: #555;
+}
+.back-button-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+.back-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.back-button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+        margin: 1rem auto;
+    }
+    .review {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+    .review-title {
+        font-size: 1rem;
+    }
+    .review-text {
+        font-size: 0.9rem;
+    }
+    .back-button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 480px) {
+    .review {
+        padding: 0.6rem;
+    }
+    .review-title {
+        font-size: 0.9rem;
+    }
+    .review-text {
+        font-size: 0.8rem;
+    }
+    .back-button {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+.logo-container {
+    text-align: center;
+    margin: 0;
+    background-color: #fff; 
+}
+.logo-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+/* ---- NAVIGATIEBALK ---- */
+.nav-bar {
+    background-color: #4CAF50; /* groene achtergrond voor de navigatie */
+    width: 100%;
+    /* je kunt eventueel padding toevoegen:
+       padding: 0.5rem 0; */
+}
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;               /* Plaats de items naast elkaar */
+    justify-content: center;     /* Horizontaal centreren */
+}
+.nav-bar li {
+    margin: 0; /* Eventueel kun je hier wat ruimte toevoegen */
+}
+.nav-bar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1.5rem;       /* Ruimte binnen de knoppen */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.nav-bar a:hover {
+    background-color: #45a049;  /* Iets donkere/groene tint bij hover */
+}
+
+
+
